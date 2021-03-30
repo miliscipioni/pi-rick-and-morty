@@ -91,7 +91,7 @@
     bottom: 0;
     width: 100%;
     color: white;
-    background-color: #1FDAFF;
+    background-color: turquoise;
     text-align: center;
   }
 
@@ -103,6 +103,11 @@
 
   .cabecera {
         background-color: turquoise;
+  }
+
+  html {
+    background-image: url("wallpaper.jpeg");
+    background-color: transparent;
   }
   
   @media screen and (max-width: 900px) {
