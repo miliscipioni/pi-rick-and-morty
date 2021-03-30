@@ -22,8 +22,8 @@
       -webkit-box-sizing: border-box;
       -moz-box-sizing: border-box;
       -o-box-sizing: border-box;
-      width: 25%;
-      margin: 1%;
+      width: 80%;
+      margin: 6%;
       -webkit-transition: all 1s;
       -o-transition: all 1s;
       transition: all 1s;
@@ -62,7 +62,8 @@
   }
 
   .contenedor-card-item .contenedor-info .info {
-      color: #000000;
+      color: white;
+      background-color: #00D3FC;
       position: relative;
       z-index: 500;
       padding: 20px 15px;
@@ -70,12 +71,14 @@
   
   .contenedor-card-item .contenedor-info .info .titulo {
     margin: 0;
-    font-size: 20px;
+    font-size: 15px;
+    text-align: center;
   }
   
   .contenedor-card-item .contenedor-info .info .categoria {
       display: block;
       font-size: 10px;
+      text-align: center;
   }
   
   .contenedor-card-item:hover .contenedor-info {

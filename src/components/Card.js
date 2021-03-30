@@ -4,8 +4,6 @@ function Card(props) {
 <body>
      <div>
 
- <div class="contenedor">
-    	<div class="contenedor-cards"> 
 		    <div class="contenedor-card-item">
 		      	<div class="contenedor-card-item-wrapper">
 		        	<img src={""+props.datos.image+""} alt=""/>
@@ -20,9 +18,6 @@ function Card(props) {
 		      	</div>
 		    </div> 
 		</div>
-		</div>
-
-	</div> 
 </body>
     )};
 export default Card;
