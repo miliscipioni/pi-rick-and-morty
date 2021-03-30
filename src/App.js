@@ -1,25 +1,29 @@
-import logo from './logo.svg';
-import './App.css';
+import Header from "./components/Header";
+import Footer from "./components/Footer";
+import Card from "./components/Card";
+import database from "./rickandmorty.json"
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <body>
+    <div>
+    <Header/>
+    <div class="contenedor">
+    <div class="contenedor-cards">  
+    {
+       database.map(function(dato, idx) {
+        return < Card datos={dato} key={idx}/>
+      })
+                }
     </div>
-  );
-}
+    </div>
+
+    <Footer/>
+     </div>
+     </body>
+  )};
 
 export default App;
+
+// en App.js armo toda la estructura principal para que despues index.js lo envie hacia el elemento con id 'root' que vive en public/index.html
+

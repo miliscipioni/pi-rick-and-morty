@@ -1,0 +1,5 @@
+Camino de ejecucion: 
+
+1. Index.html es el archivo donde enviamos la estructura que generamos con React
+2. Es que se encarga de enviarle esa estructura es index.js
+3. Finalmente, el archivo donde generamos la estructura es App.js
